@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student CV</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #e3f2fd;
+            color: #333;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            overflow: hidden;
+        }
+        .container {
+            max-width: 800px;
+            background: white;
+            padding: 20px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+            text-align: center;
+            border-radius: 10px;
+            transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+        }
+        .container:hover {
+            transform: scale(1.05);
+            box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
+        }
+        h1 {
+            color: #0d47a1;
+        }
+        h2 {
+            color: #1565c0;
+            border-bottom: 2px solid #1565c0;
+            padding-bottom: 5px;
+        }
+        .header{
+            margin-bottom: 7px;
+        }
+        .header img {
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+            display: block;
+            margin: 0 auto 10px;
+            border: 4px solid #1565c0;
+            transition: transform 0.3s ease-in-out;
+        }
+        .header img:hover {
+            transform: rotate(10deg) scale(1.1);
+        }
+        .contact {
+            background: #bbdefb;
+            padding: 10px;
+            border-radius: 5px;
+            transition: background 0.3s;
+            margin-bottom: 5px;
+        }
+        .contact:hover {
+            background: #90caf9;
+        }
+        .section {
+            background: #e3f2fd;
+            padding: 10px;
+            border-radius: 5px;
+            transition: background 0.3s;
+            margin-bottom: 5px;
+        }
+        .section:hover {
+            background: #bbdefb;
+        }
+        ul {
+            list-style: none;
+        }
+        ul li {
+            margin-bottom: 5px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <img src="img.jpg" alt="Profile Picture">
+            <h1>Your Name</h1>
+            <p>Student</p>
+        </div>
+        <div class="contact">
+            <p>Email: your.email@example.com</p>
+            <p>Phone: +1234567890</p>
+            <p>Website: www.yourwebsite.com</p>
+        </div>
+        <div class="section">
+            <h2>Summary</h2>
+            <p>A dedicated and motivated student eager to learn and develop new skills.</p>
+        </div>
+        <div class="section">
+            <h2>Education</h2>
+            <p><strong>Current Degree Program</strong> - University Name (Year - Present)</p>
+        </div>
+        <div class="section">
+            <h2>Skills</h2>
+            <ul>
+                <li>Skill 1</li>
+                <li>Skill 2</li>
+                <li>Skill 3</li>
+            </ul>
+        </div>
+        <div class="section">
+            <h2>Projects</h2>
+            <p><strong>Project Name</strong> - Brief description of your project or academic work.</p>
+        </div>
+    </div>
+</body>
+</html>
